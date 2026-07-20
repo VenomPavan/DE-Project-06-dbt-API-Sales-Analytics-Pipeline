@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: sales_dbt
+    schema: public
+
+    tables:
+      - name: raw_users
+      - name: raw_products
+      - name: raw_orders

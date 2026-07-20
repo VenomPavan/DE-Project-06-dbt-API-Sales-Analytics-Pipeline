@@ -1,0 +1,77 @@
+[0m20:39:36.484908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172224BC590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001721FA28B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172249DB890>]}
+
+
+============================== 20:39:36.489435 | 6a353bd6-a05f-4537-8942-8cf8d64f4fa0 ==============================
+[0m20:39:36.489435 [info ] [MainThread]: Running with dbt=1.12.0
+[0m20:39:36.490068 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\PAVAN TEJA\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init sales_analytics', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m20:39:36.560288 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\PAVAN TEJA\.dbt
+[0m20:39:36.562440 [debug] [MainThread]: Starter project path: D:\MP\Data Engineering Projects\P6\dbt-API-Sales-Analytics\venv\Lib\site-packages\dbt\include\starter_project
+[0m20:39:36.589988 [info ] [MainThread]: Setting up your profile.
+[0m20:41:42.114451 [info ] [MainThread]: Profile sales_analytics written to C:\Users\PAVAN TEJA\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m20:41:42.117920 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m20:41:42.118926 [info ] [MainThread]: dbt version: 1.12.0
+[0m20:41:42.119569 [info ] [MainThread]: python version: 3.14.6
+[0m20:41:42.120174 [info ] [MainThread]: python path: D:\MP\Data Engineering Projects\P6\dbt-API-Sales-Analytics\venv\Scripts\python.exe
+[0m20:41:42.120599 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m20:41:42.171992 [info ] [MainThread]: Using profiles dir at C:\Users\PAVAN TEJA\.dbt
+[0m20:41:42.172649 [info ] [MainThread]: Using profiles.yml file at C:\Users\PAVAN TEJA\.dbt\profiles.yml
+[0m20:41:42.173074 [info ] [MainThread]: Using dbt_project.yml file at D:\MP\Data Engineering Projects\P6\dbt-API-Sales-Analytics\dbt_project\sales_analytics\dbt_project.yml
+[0m20:41:42.174220 [info ] [MainThread]: adapter type: postgres
+[0m20:41:42.174689 [info ] [MainThread]: adapter version: 1.11.0
+[0m20:41:42.271062 [info ] [MainThread]: Configuration:
+[0m20:41:42.271660 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:41:42.272086 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:41:42.272667 [info ] [MainThread]: Required dependencies:
+[0m20:41:42.273491 [debug] [MainThread]: Executing "git --help"
+[0m20:41:42.396450 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:41:42.397440 [debug] [MainThread]: STDERR: "b''"
+[0m20:41:42.398033 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:41:42.398829 [info ] [MainThread]: Connection:
+[0m20:41:42.399462 [info ] [MainThread]:   host: localhost
+[0m20:41:42.400006 [info ] [MainThread]:   port: 5433
+[0m20:41:42.400811 [info ] [MainThread]:   user: postgres
+[0m20:41:42.401277 [info ] [MainThread]:   database: sales_dbt
+[0m20:41:42.401712 [info ] [MainThread]:   schema: public
+[0m20:41:42.402174 [info ] [MainThread]:   connect_timeout: 10
+[0m20:41:42.402660 [info ] [MainThread]:   role: None
+[0m20:41:42.403098 [info ] [MainThread]:   search_path: None
+[0m20:41:42.403607 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:41:42.404174 [info ] [MainThread]:   sslmode: None
+[0m20:41:42.404809 [info ] [MainThread]:   sslcert: None
+[0m20:41:42.405270 [info ] [MainThread]:   sslkey: None
+[0m20:41:42.405704 [info ] [MainThread]:   sslrootcert: None
+[0m20:41:42.406229 [info ] [MainThread]:   application_name: dbt
+[0m20:41:42.406712 [info ] [MainThread]:   autocommit: False
+[0m20:41:42.407174 [info ] [MainThread]:   retries: 1
+[0m20:41:42.407883 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m20:41:42.600039 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:41:44.111725 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:41:44.112371 [debug] [MainThread]: On debug: select 1 as id
+[0m20:41:44.112627 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:41:44.161308 [debug] [MainThread]: SQL status: SELECT 1 in 0.049 seconds
+[0m20:41:44.162141 [debug] [MainThread]: On debug: Close
+[0m20:41:44.162499 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:41:44.163291 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:41:44.163780 [info ] [MainThread]: Your new dbt project "sales_analytics" was created!
+Initialized new project in D:\MP\Data Engineering Projects\P6\dbt-API-Sales-Analytics\dbt_project\sales_analytics\sales_analytics
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:41:44.164734 [debug] [MainThread]: Command `dbt init` succeeded at 20:41:44.164591 after 127.83 seconds
+[0m20:41:44.165024 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:41:44.165404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001722480F360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017224CEF890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017222CF2580>]}
+[0m20:41:44.165768 [debug] [MainThread]: Flushing usage events
+[0m20:41:44.445902 [debug] [MainThread]: An error was encountered while trying to flush usage events
